@@ -2,14 +2,26 @@
 intersight:
     profiles:
       server:
-        - names: [
-            esx04,
-            esx05,
-            esx06
+        - names_serials: [
+            # Assigning the Serial will Associate the Physical Server
+            # [esx04,FDO1234567A],
+            # [esx05,FDO1234567B],
+            # [esx06,FDO1234567C],
+            # [esx07,FDO1234568A],
+            # [esx08,FDO1234568B],
+            # [esx09,FDO1234568C],
+            # [esx10,FDO1234569A],
+            # [esx11,FDO1234569B],
+            # [esx12,FDO1234569C]
+            # Not Assigning the Serial will just create the Profile
+            [esx04],
+            [esx05],
+            [esx06],
+            [esx07],
+            [esx08],
+            [esx09],
+            [esx10],
+            [esx11],
+            [esx12]
           ]
-          # serial_numbers: [
-          #   FDO1234568A,
-          #   FDO1234568B,
-          #   FDO1234568C
-          # ]
           ucs_server_profile_template: Virtualization-M2-pxe

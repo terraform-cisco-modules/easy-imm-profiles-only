@@ -6,7 +6,7 @@ data "utils_yaml_merge" "model" {
   input = concat([
     for file in fileset(path.module, "profiles/*.yaml") : file(file)], [
     for file in fileset(path.module, "templates/*.yaml") : file(file)], [
-    file("${path.module}/defaults/defaults.yaml"), file("${path.module}/modules/modules.yaml")]
+    file("${path.module}/defaults/defaults.yaml")]
   )
 }
 
