@@ -11,9 +11,8 @@ data "utils_yaml_merge" "model" {
 }
 
 module "profiles" {
-  source = "../terraform-intersight-profiles"
-  # source  = "terraform-cisco-modules/profiles/intersight"
-  # version = ">= 1.0.1"
+  source  = "terraform-cisco-modules/profiles/intersight"
+  version = ">= 1.0.3"
   model    = local.model
   pools    = {}
   policies = {}
