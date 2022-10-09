@@ -1,4 +1,7 @@
 <!-- BEGIN_TF_DOCS -->
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Developed by: Cisco](https://img.shields.io/badge/Developed%20by-Cisco-blue)](https://developer.cisco.com)
+
 # Easy IMM - Profiles Only example for Intersight
 
 This example is part of the Cisco [*Easy IMM*](https://cisco.com/go/easy-imm) project. Its goal is to allow users to instantiate Infrastrcture in minutes using an easy to use, opinionated data model. It takes away the complexity of having to deal with references, dependencies or loops. By completely separating data (defining variables) from logic (infrastructure declaration), it allows the user to focus on describing the intended configuration while using a set of maintained and tested Terraform Modules without the need to understand the low-level Intersight object model. More information can be found here: <https://cisco.com/go/easy-imm>.
@@ -27,6 +30,11 @@ export TF_VAR_secretkeyfile="<secret-key-file-location>"
 | Name | Version |
 |------|---------|
 | <a name="provider_utils"></a> [utils](#provider\_utils) | 0.1.2 |
+## Modules
+
+| Name | Source | Version |
+|------|--------|---------|
+| <a name="module_profiles"></a> [profiles](#module\_profiles) | terraform-cisco-modules/profiles/intersight | >= 1.0.11 |
 ## Inputs
 
 | Name | Description | Type | Default | Required |
@@ -39,9 +47,16 @@ export TF_VAR_secretkeyfile="<secret-key-file-location>"
 | Name | Description |
 |------|-------------|
 | <a name="output_profiles"></a> [profiles](#output\_profiles) | n/a |
-## Resources
 
-| Name | Type |
-|------|------|
-| [utils_yaml_merge.model](https://registry.terraform.io/providers/netascode/utils/latest/docs/data-sources/yaml_merge) | data source |
+# Sub Modules
+
+If you want to see documentation on Variables for Submodules use the links below:
+
+## Terraform Registry
+
+### Profiles
+
+[*Chassis*](https://registry.terraform.io/modules/terraform-cisco-modules/profiles-chassis/intersight/latest)
+[*Domain*](https://registry.terraform.io/modules/terraform-cisco-modules/profiles-domain/intersight/latest)
+[*Server*](https://registry.terraform.io/modules/terraform-cisco-modules/profiles-server/intersight/latest)
 <!-- END_TF_DOCS -->
