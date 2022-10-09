@@ -41,7 +41,8 @@ export TF_VAR_secretkeyfile="<secret-key-file-location>"
 |------|-------------|------|---------|:--------:|
 | <a name="input_apikey"></a> [apikey](#input\_apikey) | Intersight API Key. | `string` | n/a | yes |
 | <a name="input_endpoint"></a> [endpoint](#input\_endpoint) | Intersight URL. | `string` | `"https://intersight.com"` | no |
-| <a name="input_secretkey"></a> [secretkey](#input\_secretkey) | Intersight Secret Key. | `string` | n/a | yes |
+| <a name="input_secretkey"></a> [secretkey](#input\_secretkey) | Intersight Secret Key. | `string` | `""` | no |
+| <a name="input_secretkeyfile"></a> [secretkeyfile](#input\_secretkeyfile) | Intersight Secret Key File Location. | `string` | `"blah.txt"` | no |
 ## Outputs
 
 | Name | Description |

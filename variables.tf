@@ -16,7 +16,15 @@ variable "endpoint" {
 }
 
 variable "secretkey" {
+  default     = ""
   description = "Intersight Secret Key."
+  sensitive   = true
+  type        = string
+}
+
+variable "secretkeyfile" {
+  default     = "blah.txt"
+  description = "Intersight Secret Key File Location."
   sensitive   = true
   type        = string
 }
