@@ -37,7 +37,9 @@ content: |-
   ### Profiles
 
   [*Chassis*](https://registry.terraform.io/modules/terraform-cisco-modules/profiles-chassis/intersight/latest)
+
   [*Domain*](https://registry.terraform.io/modules/terraform-cisco-modules/profiles-domain/intersight/latest)
+
   [*Server*](https://registry.terraform.io/modules/terraform-cisco-modules/profiles-server/intersight/latest)
 
 output:

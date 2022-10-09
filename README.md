@@ -57,6 +57,8 @@ If you want to see documentation on Variables for Submodules use the links below
 ### Profiles
 
 [*Chassis*](https://registry.terraform.io/modules/terraform-cisco-modules/profiles-chassis/intersight/latest)
+
 [*Domain*](https://registry.terraform.io/modules/terraform-cisco-modules/profiles-domain/intersight/latest)
+
 [*Server*](https://registry.terraform.io/modules/terraform-cisco-modules/profiles-server/intersight/latest)
 <!-- END_TF_DOCS -->
