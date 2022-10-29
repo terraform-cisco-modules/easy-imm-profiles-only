@@ -29,12 +29,12 @@ export TF_VAR_secretkeyfile="<secret-key-file-location>"
 
 | Name | Version |
 |------|---------|
-| <a name="provider_utils"></a> [utils](#provider\_utils) | 0.1.2 |
+| <a name="provider_utils"></a> [utils](#provider\_utils) | >= 0.1.2 |
 ## Modules
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_profiles"></a> [profiles](#module\_profiles) | terraform-cisco-modules/profiles/intersight | >= 1.0.11 |
+| <a name="module_profiles"></a> [profiles](#module\_profiles) | terraform-cisco-modules/profiles/intersight | >= 1.0.13 |
 ## Inputs
 
 | Name | Description | Type | Default | Required |
