@@ -10,8 +10,8 @@ variable "apikey" {
 }
 
 variable "endpoint" {
-  default     = "https://intersight.com"
-  description = "Intersight URL."
+  default     = "intersight.com"
+  description = "Intersight Endpoint Hostname."
   type        = string
 }
 
